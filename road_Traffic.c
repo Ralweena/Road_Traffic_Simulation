@@ -49,7 +49,7 @@ void drawsubhead(float x, float y, float z, char *string)
 
 void draw_pixel(GLfloat xc, GLfloat yc)
 {
-        glPointSize(9.0);
+        glPointSize(9.0);  
         glBegin(GL_POINTS);
                 glVertex2f(xc,yc);
         glEnd();
